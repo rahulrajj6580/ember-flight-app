@@ -1,0 +1,13 @@
+<div class="login-form" >
+  <form class="form-wrap" {{on "submit" this.login}}>
+    <p class="account">Already Have an Account? </p>
+    <Input class="input" type="email" placeholder="Enter Your E-mail" @value={{this.email}}  />
+    <small class="email-error text-danger">{{this.emailError}}</small>
+    <Input class="input" type="password" placeholder="Enter Your Password" @value={{this.password}} />
+    <small class="password-error text-danger">{{this.passwordError}}</small>
+    <button class="login-button" type="submit" >Login</button>
+    <Linkto class="button">Login.</Linkto>
+    <small class="input-error text-danger">{{this.errorMessage}}</small>
+    <a class="forgot-password mt-3" href="">Forgot Password?</a>
+  </form>
+</div>

@@ -1,0 +1,72 @@
+.search-wrap {
+  background: linear-gradient(rgb(221 53 53), rgb(212 59 59 / 89%));
+  padding-top: 1.2%;
+  height: 200px;
+  margin-top: -20px;
+}
+
+.search-box {
+  background-color: white;
+  color: rgb(100 99 99);
+  padding-top: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgb(88 87 87 / 14.8%);
+}
+
+.input-feilds {
+  border: none;
+  height: 40px;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.search-button {
+  border: solid 2px rgb(163 159 159);
+  background-color: rgb(247 56 56);
+  color: white;
+  border-radius: 7px;
+  height: 50px;
+  width: 100px;
+  margin-top: 5px;
+}
+
+.input-name {
+  margin-bottom: 0;
+}
+
+.passenger-button {
+  border: 1px solid rgb(100 99 99);
+  color: rgb(100 99 99);
+  border-radius: 4px;
+}
+
+.card {
+  flex-direction: row !important;
+  position:absolute;
+}
+
+.plus-button{
+  padding: 2px;
+  width: 15px;
+  border: 1px solid rgb(100 99 99);
+  /* margin-left: 50px;
+  margin-right: 8px; */
+  /* right: 0; */
+  color: white;
+  background-color: rgb(77, 76, 76);
+  border-radius: 3px;
+}
+
+.minus-button{
+  padding: 2px;
+  width: 15px;
+  border: 1px solid rgb(100 99 99);
+  /* margin-left: 8px; */
+  /* right: 0; */
+  color: white;
+  background-color: rgb(77, 76, 76);
+  border-radius: 3px;
+}

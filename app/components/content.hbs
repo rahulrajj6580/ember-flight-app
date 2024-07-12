@@ -1,0 +1,19 @@
+<div class="spinners d-flex justify-content-center mt-3">
+{{!-- <div class="spinner-grow" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div> --}}
+<h2 class="offer-text ">Exclusive offers</h2>
+{{!-- <div class="spinner-grow" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div> --}}
+</div>
+
+<div class="offersection d-flex p-5 ms-5">
+{{#each @content as |content|}}
+  <div class="offer-cards m-4">
+    <img class="offer-img" src={{content.image}} width="220px" height="150px"/>
+    <h6 class="offer">{{content.title}}</h6>
+    <p>{{content.description}}</p>
+  </div>
+{{/each}}
+</div>

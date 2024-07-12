@@ -1,0 +1,40 @@
+{
+    "data": [
+      {
+          "id": "01",
+          "type" : "offers",
+        "attributes": {
+            "title" : "It's Raining Offers",
+          "image": "https://offercdn.paytm.com/blog/2021/12/welcomeflight-tnc-app.png",
+          "description": "14% Cash back for the first flight booning"
+        }
+      },
+      {
+        "id": "02",
+        "type" : "offers",
+        "attributes": {
+          "title" : "Credit Card Deals",
+          "image": "https://www.cleartrip.com/offers/sites/default/files/styles/destination-top/public/_op_2392_x_1196_axis-air.png?itok=C7KwAMs1",
+          "description": "Get Flat up to 15% off with Axis Credit & debit Bank Cards!"
+        }
+      },
+      {
+        "id": "03",
+        "type" : "offers",
+        "attributes": {
+          "title" : "Return at 30% off",
+          "image": "https://i.pinimg.com/564x/90/8e/18/908e18e7709a57fc19a5d421ba2e3aab.jpg",
+          "description": "Get 30% off on booking return tickets, T&C apply"
+        }
+      },
+      {
+        "id": "04",
+        "type" : "offers",
+        "attributes": {
+            "title" : "",
+          "image": "https://i.pinimg.com/736x/22/ba/bd/22babd071e5a647259e34fe805047591.jpg",
+          "description": "Get premium to book tickets earlier than normal!"
+        }
+      }
+    ]
+  }

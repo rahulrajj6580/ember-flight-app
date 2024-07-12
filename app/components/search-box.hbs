@@ -1,0 +1,97 @@
+<div class="search-wrap">
+  <div class="search-box d-flex justify-content-between m-5">
+    <div class="from-city">
+      <p class="input-name">From</p>
+      <input class="input-feilds" type="search" placeholder="Enter your City" />
+    </div>
+    <div class="destination">
+      <p class="input-name">To</p>
+      <input
+        class="input-feilds"
+        type="search"
+        placeholder="Enter Destination"
+      />
+    </div>
+    <div class="start-date">
+      <p class="input-name">Departure Date</p>
+      <input class="input-feilds" type="date" />
+    </div>
+
+    <div class="end-date">
+      <p class="input-name">Return Date</p>
+      <input class="input-feilds" type="date" />
+    </div>
+
+    <div class="passenger">
+      <button
+        class="passenger-button p-2 mt-2"
+        type="button"
+        {{on "click" this.showCard}}
+      >
+        Travellers and Class
+      </button>
+      {{#if this.isCardVisible}}
+        <div class="card d-flex">
+          <div class="col-7">
+          <span>Adults</span>
+          </div>
+          <div class="col-5 justify-content-end">
+            <button
+              class="plus-button"
+              type="button"
+              {{on "click" this.subtractAdult}}
+            >-</button>
+            <span>{{this.adultCount}}</span>
+            <button
+              class="minus-button"
+              type="button"
+              {{on "click" this.addAdult}}
+            >+</button>
+          </div>
+        </div>
+        <div class="card d-flex">
+          <div class="col-7">
+          <span>Children</span>
+          </div>
+          <div class="col-5 justify-content-end">
+            <button
+              class="plus-button"
+              type="button"
+              {{on "click" this.subtractAdult}}
+            >-</button>
+            <span>{{this.adultCount}}</span>
+            <button
+              class="minus-button"
+              type="button"
+              {{on "click" this.addAdult}}
+            >+</button>
+          </div>
+        </div>
+        <div class="card d-flex">
+          <div class="col-7">
+          <span>Infants</span>
+          </div>
+          <div class="col-5 justify-content-end">
+            <button
+              class="plus-button"
+              type="button"
+              {{on "click" this.subtractAdult}}
+            >-</button>
+            <span>{{this.adultCount}}</span>
+            <button
+              class="minus-button"
+              type="button"
+              {{on "click" this.addAdult}}
+            >+</button>
+          </div>
+        </div>
+      {{/if}}
+    </div>
+
+    <div>
+      <button class="search-button" type="button">Search</button>
+    </div>
+
+  </div>
+
+</div>
