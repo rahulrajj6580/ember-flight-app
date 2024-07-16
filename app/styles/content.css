@@ -1,17 +1,19 @@
 .offer-cards {
-  /* height: 320px; */
   width: 224px;
   border: 2px solid rgb(246 39 73);
   border-radius: 5px;
-
-  /* justify-content: center; */
-  align-items: center;
+  box-shadow: 5px 10px 7px rgba(128, 128, 128, 0.79);
 }
 
 .offer {
   background-color: rgb(245 33 68);
+  padding-left: 7px;
 }
 
 .offer-img {
-  border-radius: 4px 4px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.description {
+  padding: 5px;
 }

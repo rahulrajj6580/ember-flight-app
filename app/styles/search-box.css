@@ -45,10 +45,10 @@
 
 .card {
   flex-direction: row !important;
-  position:absolute;
+  position: absolute;
 }
 
-.plus-button{
+.plus-button {
   padding: 2px;
   width: 15px;
   border: 1px solid rgb(100 99 99);
@@ -60,7 +60,7 @@
   border-radius: 3px;
 }
 
-.minus-button{
+.minus-button {
   padding: 2px;
   width: 15px;
   border: 1px solid rgb(100 99 99);
