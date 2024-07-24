@@ -1,0 +1,12 @@
+.flight{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.208);
+}
+
+.flight-row{
+    font-size: smaller ;
+}
+
+.flight-list{
+    background: linear-gradient(rgba(254, 2, 44, 0.096) , rgba(244, 35, 70, 0.237));
+}

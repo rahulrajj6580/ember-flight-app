@@ -2,6 +2,9 @@
 @import url("search-box.css");
 @import url("login-form.css");
 @import url("content.css");
+@import url("flight.css");
+@import url("filter.css");
+@import url("departure.css");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 * {
@@ -11,7 +14,7 @@
   box-sizing: border-box;
 }
 
-.row {
+.login {
   background-image: url("/assets/images/login\ background.jpg");
   background-size: cover;
   height: 100vh;
